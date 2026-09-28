@@ -1,0 +1,108 @@
+/*great vibde fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+*{margin: 0%;
+    padding: 0%;
+
+}
+
+/*COR DO FUNDO*/
+body {
+    background-color: rgb(228, 195, 217); 
+}
+
+/* FONTE DOS LINKS, TAMANHO, COR E CENTRO*/
+header {
+     font-family: "Great Vibes", cursive;
+
+     font-size: 50px;
+     font-weight: 400;
+     font-style: normal;
+     background-color: rgb(248, 169, 196); 
+     text-align: center;
+    
+}
+
+/*LINKS*/
+a {
+    color: aliceblue;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+/*TAMANHO DO MODELO E ESTILO DA LOGO*/
+#logo { 
+    margin: auto;
+    width: 300px;
+    height: 100px;
+}
+
+/*  TAMANHO DO CASTELO*/
+
+/*TUDO QUE TA DENTRO DA MINHA SECTION*/
+
+#inicio{
+    width: 100%;
+    height: 600px; 
+    background-color:  rgb(236, 147, 199);
+    text-align: center;
+    background-image: url(./imagens/princesas.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#Resumo {
+
+    width: 300px ;
+    height: 200px; 
+    display: inline-block;
+    background-color: aqua;
+    
+    }
+    #castelo { 
+
+        width: 600px;
+        display: inline-block;
+
+
+    }
+
+        #img-castelo{
+            width:650px;
+            height:500px;
+        }
+
+        /*Começo do cartão*/
+
+        .cartão1 {
+            background-color:aqua ;
+            display: inline-block;
+            width: 200px;
+            height: 300px;
+
+        }
+
+
+
+  /*Começo das imagens*/
+
+        #imgcinderela {
+            width: 200px;
+        }
+
+        #imgbela {
+            width: 200px;
+        }
+
+    #imgariel{
+
+    width: 200px;
+  }
+
+    
+
+
+
